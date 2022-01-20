@@ -26,4 +26,14 @@ describe Bookmark do
       expect(bookmark.title).to eq("Test")
     end
   end
+
+  describe "#delete" do
+    it 'deletes a certain bookmark' do 
+      bookmark = Bookmark.add_bookmark(url: 'www.delete.com', title: 'delete')
+      Bookmark.delete(id: bookmark.id)
+      expect(Bookmark.all_bookmarks.length).to eq 0
+    end 
+  end 
+      
+
 end
