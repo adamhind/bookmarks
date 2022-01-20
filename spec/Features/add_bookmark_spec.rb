@@ -9,8 +9,9 @@ feature "Adding a new bookmark" do
   scenario "After bookmark is added" do
     visit('/')
     click_button('Add Bookmark')
-    fill_in 'url', with: 'fake_web_page'
+    fill_in 'url', with: 'http://www.google.com'
+    fill_in 'title', with: 'Test'
     click_button('Submit')
-    expect(page).to have_content 'fake_web_page'
+    expect(page).to have_link('Test', href: 'http://www.google.com')
   end
 end

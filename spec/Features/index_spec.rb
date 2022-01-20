@@ -5,9 +5,9 @@ describe "looks at the index.erb and view the content", type: :feature do
   end 
 end
 
-describe "viewing bookmarks", type: :feature do
-  it 'allows the user to see their bookmarks' do
-    visit('/bookmarks')
-    expect(page).to have_content "www.google.com"
-  end
-end
+# describe "viewing bookmarks", type: :feature do
+#   it 'allows the user to see their bookmarks' do
+#     visit('/bookmarks')
+#     expect(page).to have_content "www.google.com"
+#   end
+# end

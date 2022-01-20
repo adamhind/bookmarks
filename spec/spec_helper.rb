@@ -38,7 +38,6 @@ Capybara.app = Bookmarks
 RSpec.configure do |config|
   config.before(:each) do
     truncate_db
-    add_test_entry
   end
 
   # rspec-expectations config goes here. You can use an alternate

@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/marcusventin/Projects/week-6-databases/bookmark-manager-2/bookmarks/app.rb": {
+      "/Users/adamhindmarsh/Desktop/projects/bookmarks/app.rb": {
         "lines": [
           1,
           1,
@@ -13,8 +13,8 @@
           null,
           null,
           1,
-          5,
-          5,
+          4,
+          4,
           null,
           null,
           1,
@@ -32,39 +32,48 @@
           null
         ]
       },
-      "/Users/marcusventin/Projects/week-6-databases/bookmark-manager-2/bookmarks/lib/bookmarks.rb": {
+      "/Users/adamhindmarsh/Desktop/projects/bookmarks/lib/bookmarks.rb": {
         "lines": [
           1,
           null,
           1,
           null,
           1,
-          7,
-          7,
+          null,
+          1,
+          9,
+          9,
+          9,
+          null,
+          null,
+          1,
+          5,
+          5,
           null,
           0,
           null,
           null,
-          7,
-          16,
+          5,
+          5,
+          4,
           null,
           null,
           null,
           1,
-          2,
-          2,
+          5,
+          5,
           null,
           0,
           null,
           null,
-          2,
-          null,
+          5,
+          5,
           null,
           null,
           null
         ]
       },
-      "/Users/marcusventin/Projects/week-6-databases/bookmark-manager-2/bookmarks/spec/Features/add_bookmark_spec.rb": {
+      "/Users/adamhindmarsh/Desktop/projects/bookmarks/spec/Features/add_bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -80,11 +89,12 @@
           1,
           1,
           1,
+          1,
           null,
           null
         ]
       },
-      "/Users/marcusventin/Projects/week-6-databases/bookmark-manager-2/bookmarks/spec/Features/index_spec.rb": {
+      "/Users/adamhindmarsh/Desktop/projects/bookmarks/spec/Features/index_spec.rb": {
         "lines": [
           1,
           1,
@@ -93,30 +103,39 @@
           null,
           null,
           null,
-          1,
-          1,
-          1,
-          1,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
       },
-      "/Users/marcusventin/Projects/week-6-databases/bookmark-manager-2/bookmarks/spec/bookmark_spec.rb": {
+      "/Users/adamhindmarsh/Desktop/projects/bookmarks/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
           1,
+          null,
+          1,
           1,
           1,
           null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null,
           1,
-          null,
-          2,
-          null,
+          1,
           1,
           1,
           1,
@@ -126,6 +145,6 @@
         ]
       }
     },
-    "timestamp": 1642525913
+    "timestamp": 1642689474
   }
 }
